@@ -541,6 +541,10 @@ h1 {
     width: 170px;
   }
 
+  .other-input > select {
+    background-color: #fff;
+  }
+
   .name { background-image: url('../images/svg/account_circle-black-18dp.svg') }
   .address { background-image: url('../images/svg/home-black-18dp.svg') }
   .city { background-image: url('../images/svg/location_city-black-18dp.svg') }
