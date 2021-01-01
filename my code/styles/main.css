@@ -327,14 +327,20 @@ h1 {
     padding: 0 6px;
   }
 
+  .checkout h1 {
+    padding-left: 0;
+  }
+
   .checkout {
     display: flex;
     flex-direction: column;
 
     background-color: #f2f2f2;
     border-radius: 13px;
+    float: none;
     margin-top: 22px;
     padding: 32px 28px;
+    position: sticky;
   }
 
   .product {
@@ -447,6 +453,8 @@ h1 {
   .contact-checkout {
     margin-top: 30px;
     padding: 0;
+
+    width: 100%;
   }
 
   .infos-contact,
@@ -495,7 +503,11 @@ h1 {
   .email { background-image: url('../images/svg/email-black-18dp.svg') }
   .phone { background-image: url('../images/svg/phone-black-18dp.svg') }
 
-  .shipping-address { margin-top: 30px }
+  .shipping-address { 
+    margin-top: 30px;
+    padding-left: 0;
+    width: 100%;
+}
 
   .more-address-infos  {
     display: flex;
